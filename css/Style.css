@@ -148,10 +148,11 @@ a:hover{
 /*----------------------------- start navbar-section -------------------------------------*/
 .navbar-section{
     height: 140px;
-    background-color: #71236a;
+    background-color: #fff;
 }
 .navbar-content{
     position: relative;
+    text-align: center;
     z-index: 2;
 }
 .logo-div{
@@ -414,7 +415,12 @@ a:hover{
     animation: whiteNavAnimation 1s;
 }
 .scrolled-nav .logo-div{
-    margin-top: 16px;
+    margin-top: 2px;
+}
+@media (max-width:767px){
+    .scrolled-nav .logo-div{
+        margin-top: 15px;
+    }
 }
 .scrolled-nav .elements-div{
     margin-top: 46px;
@@ -440,10 +446,13 @@ a:hover{
     0%   {transform: translate(0px,-120px);}
     100%  {transform: translate(0px,0px);}
 }
+.logo-div img{
+    width: 200px;
+}
 /*md*/
 @media (min-width:992px) and (max-width:1199px){
     .logo-div img{
-        width: 150px;
+        width: 200px;
     }
     .elements-div{
         margin-top: 43px;
