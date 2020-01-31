@@ -525,7 +525,7 @@ a:hover{
 .text-div-inner{
     height: 115px;
     position: absolute;
-    top: 50%;
+    top: 35%;
     right: 15px;
     transform: translateY(-50%);
     width: 463px;
@@ -546,6 +546,23 @@ a:hover{
     padding: 5px 0px;
     width: 0px;
     overflow: hidden;
+}
+.en-text-div2{
+    direction: ltr;
+    position: absolute;
+    left: 0px;
+    bottom: -45px;
+    display: inline-block;
+    padding: 5px 0px;
+    width: 0px;
+    overflow: hidden;
+}
+.en-text-div2 > p{
+    white-space: nowrap;
+    color: #fff;
+    font-family: OpenSans;
+    font-size: 26px;
+    word-spacing: 3px;
 }
 .ar-text-div > p{
     white-space: nowrap;
@@ -658,7 +675,7 @@ a:hover{
         padding: 0px;
     }
     .text-div{
-        height: 110px;
+        height: 161px;
     }
     .text-div-inner{
         top: 25px;
@@ -667,12 +684,16 @@ a:hover{
         transform: none;
         transform: translateX(-50%);
         width: 285px;
-        height: 77px;
+        height: 95px;
     }
     .ar-text-div > p{
         font-size: 22px;
     }
     .en-text-div > p{
+        font-size: 16px;
+        word-spacing: 2px;
+    }
+    .en-text-div2 > p{
         font-size: 16px;
         word-spacing: 2px;
     }

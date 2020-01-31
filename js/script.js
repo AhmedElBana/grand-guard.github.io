@@ -66,7 +66,12 @@ $(document).ready(function(){
                 $('.ar-text-div').css("border","none");
                 $('.en-text-div').css("border-right","1px solid #fff");
                 $('.en-text-div').animate({width: '100%'}, 1500);
-                // setTimeout(function(){ $('.en-text-div').css("border","none");player.playVideo();},1500);
+                setTimeout(function(){ $('.en-text-div').css("border","none");/*player.playVideo();*/},1500);
+                setTimeout(function(){ 
+                  $('.en-text-div2').css("border-right","1px solid #fff");
+                  $('.en-text-div2').animate({width: '100%'}, 1500);
+                  setTimeout(function(){ $('.en-text-div2').css("border","none");/*player.playVideo();*/},1500);
+                }, 1500);
             }, 1500);
         }
     , 700);
