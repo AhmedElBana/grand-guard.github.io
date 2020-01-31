@@ -1090,6 +1090,7 @@ a:hover{
 }
 .news-section .h-txt{
     margin-bottom: 40px;
+    font-size: 24px;
 }
 /*md*/
 @media (min-width:992px) and (max-width:1199px){
